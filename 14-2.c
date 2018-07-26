@@ -15,10 +15,11 @@ sum(n);
 
 int sum(int n)
 {
-int i,j,q;
+int j,q;
 if(n<0)
 printf("Invalid input");
 else {
+int i;
 for(i=1;i<=n;i++)
     {q=0;
         for(j=1;j<i;++j)

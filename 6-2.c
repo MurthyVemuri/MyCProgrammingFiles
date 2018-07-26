@@ -54,7 +54,7 @@ else
 
 if(d==6)
 {
-if(d==6 && a==7 ||d==6 && a==6)
+if(a==7 || a==6)
 {printf("Compatible");}
 else
 {printf("Not compatible");}
@@ -73,7 +73,7 @@ else
 
 if(d==8)
 {
-if(d==8 && a==7 ||d==8 && a==8)
+if(a==7 || a==8)
 {printf("Compatible");}
 else
 {printf("Not compatible");}

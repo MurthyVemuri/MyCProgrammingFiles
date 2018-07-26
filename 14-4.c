@@ -20,11 +20,11 @@ printf("Not a ramanujan number");
 long int ram(long int n)
 {
 
-long int k,sum=0,a,r,s=0,res;
+long int sum=0,a,r,s=0,res;
 
 while(n>0)
 {
-k=n%10;
+long int k=n%10;
 sum=sum+k;
 n=n/10;
 }

@@ -8,7 +8,7 @@ char i[200];
 const char tok[2] = " ";
 char *token;
 char fn[100]={'\0'}, e[100]={'\0'}, cn[100]={'\0'};
-int n=0,len,k,j,temp;
+int n=0,len = 0,k,j,temp;
 scanf("%[^\n]",i);
 token = strtok(i,tok);
 
